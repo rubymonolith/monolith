@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/majestic/monolith.rb"
+
+Majestic::Monolith::CLI.start ARGV
