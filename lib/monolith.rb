@@ -7,8 +7,4 @@ module Monolith
   class Error < StandardError; end
 
   autoload :CLI,    "monolith/cli"
-
-  # module Templates
-  #   autoload :Alpha,    "majestic/monolith/templates/alpha"
-  # end
 end
