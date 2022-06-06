@@ -21,6 +21,10 @@ Gem::Specification.new do |spec|
     Dir["{app,config,db,lib,exe}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   end
 
+  spec.bindir = "exe"
+  spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
+  spec.require_paths = ["lib"]
+
   spec.add_dependency "rails", ">= 7.0.3"
   spec.add_dependency "thor"
 end

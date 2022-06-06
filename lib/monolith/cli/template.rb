@@ -5,5 +5,5 @@ else
 end
 
 after_bundle do
-  rails_command "generate monolith:install"
+  generate "monolith:install"
 end

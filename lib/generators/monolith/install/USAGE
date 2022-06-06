@@ -1,0 +1,7 @@
+Description:
+    Installs the base gems needed for Monolith
+
+Example:
+    bin/rails generate monolith:install
+
+    This will install several base gems and run their respective install commands
