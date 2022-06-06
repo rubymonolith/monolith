@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    monolith (0.1.0)
-      rails (>= 7.0.3)
-      thor
+    majestic-monolith (0.1.1)
+      rails (>= 7.0.0)
+      thor (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -161,7 +161,7 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  monolith!
+  majestic-monolith!
   sprockets-rails
   sqlite3
 

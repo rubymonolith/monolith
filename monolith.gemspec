@@ -1,17 +1,21 @@
 require_relative "lib/monolith/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "monolith"
+  spec.name        = "majestic-monolith"
   spec.version     = Monolith::VERSION
   spec.authors     = ["Brad Gessler"]
   spec.email       = ["bradgessler@gmail.com"]
   spec.homepage    = "https://github.com/rocketship/monolith"
-  spec.summary     = "Sane defaults for building SaaS applications on Rails."
+  spec.summary     = "CLI used to create Rails monoliths by Rocketship for quickly building SaaS applications."
+  spec.description = spec.summary
   spec.license     = "MIT"
+
+  spec.required_ruby_version = ">= 2.6.0"
   
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
   # to allow pushing to a single host or delete this section to allow pushing to any host.
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
+
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
@@ -25,6 +29,6 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rails", ">= 7.0.3"
-  spec.add_dependency "thor"
+  spec.add_dependency "rails", ">= 7.0.0"
+  spec.add_dependency "thor", "~> 1.0"
 end
