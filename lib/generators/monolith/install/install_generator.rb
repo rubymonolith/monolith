@@ -87,7 +87,6 @@ class Monolith::InstallGenerator < Rails::Generators::Base
   def post_install_message
     say_status "next steps", <<~DOCS
     [ ] Run `rails db:migrate`
-    [ ] Run `bundle install`
     [ ] Launch the server via `dev`
     [ ] Go to `http://localhost:3000`
     DOCS
