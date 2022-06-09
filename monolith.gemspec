@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.version     = Monolith::VERSION
   spec.authors     = ["Brad Gessler"]
   spec.email       = ["bradgessler@gmail.com"]
-  spec.homepage    = "https://github.com/rocketship/monolith"
+  spec.homepage    = "https://github.com/rocketshipio/monolith"
   spec.summary     = "CLI used to create Rails monoliths by Rocketship for quickly building SaaS applications."
   spec.description = spec.summary
   spec.license     = "MIT"
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
-  spec.metadata["changelog_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = "#{spec.homepage}/releases"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib,exe}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
