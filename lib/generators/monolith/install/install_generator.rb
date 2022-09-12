@@ -18,9 +18,6 @@ class Monolith::InstallGenerator < Rails::Generators::Base
     # Encapsulate views (instead of using partials)
     gem "view_component"
 
-    # I use to not like Tailwind, but now I love using it with view_components.
-    gem "tailwindcss-rails"
-
     # Displays UTC times from the database in the users local time, all computed client-side.
     # Super duper useful for keeping times sane
     gem "local_time"
