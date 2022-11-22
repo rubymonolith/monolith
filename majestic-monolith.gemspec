@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.version     = Monolith::VERSION
   spec.authors     = ["Brad Gessler"]
   spec.email       = ["bradgessler@gmail.com"]
-  spec.homepage    = "https://github.com/rocketshipio/monolith"
+  spec.homepage    = "https://github.com/majesticmonolith/cli"
   spec.summary     = "CLI used to create Rails monoliths by Rocketship for quickly building SaaS applications."
   spec.description = spec.summary
   spec.license     = "MIT"
