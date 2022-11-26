@@ -1,7 +1,7 @@
 if path = ENV["MAJESTIC_MONOLITH_GEM_PATH"]
-  gem "majestic-monolith", path: path
+  gem "majesticmonolith", path: path
 else
-  gem "majestic-monolith"
+  gem "majesticmonolith"
 end
 
 after_bundle do

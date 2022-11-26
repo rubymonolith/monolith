@@ -1,7 +1,7 @@
 require_relative "lib/monolith/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "majestic-monolith"
+  spec.name        = "majesticmonolith"
   spec.version     = Monolith::VERSION
   spec.authors     = ["Brad Gessler"]
   spec.email       = ["bradgessler@gmail.com"]
