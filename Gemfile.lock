@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    majesticmonolith (0.1.4)
+    monolith (0.1.4)
       thor (~> 1.0)
 
 GEM
@@ -89,6 +89,7 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.1)
     minitest (5.15.0)
     net-imap (0.2.3)
       digest
@@ -105,9 +106,8 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.6-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.13.6-x86_64-darwin)
+    nokogiri (1.13.6)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     racc (1.6.0)
     rack (2.2.3.1)
@@ -160,10 +160,11 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-22
   x86_64-darwin-20
 
 DEPENDENCIES
-  majesticmonolith!
+  monolith!
   rails (>= 7.0.0)
   sprockets-rails
   sqlite3

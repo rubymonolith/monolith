@@ -1,12 +1,12 @@
 # Monolith
 
-A quick way to spin up a [Majestic Monlith](https://m.signalvnoise.com/the-majesticmonolith/) Rails application. [Rocketship](https://rocketship.io/) uses Monolith when building new SaaS applications.
+A quick way to spin up a [Monlith](https://m.signalvnoise.com/the-monolith/) Rails application. [Rocketship](https://rocketship.io/) uses Monolith when building new SaaS applications.
 
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ gem install majesticmonolith
+    $ gem install rubymonolith
 
 ## Usage
 
@@ -20,7 +20,7 @@ Monolith creates a new Rails project with the dependencies needed to be producti
 
 The gem may also be installed for existing Rails applications by executing:
 
-    $ bundle add majesticmonolith
+    $ bundle add rubymonolith
 
 Then run the following to see the available tasks:
 
@@ -34,4 +34,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/rocketship/monolith.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rubymonolith/monolith.
