@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    monolith (0.1.4)
+    rubymonolith (0.1.5)
       thor (~> 1.0)
 
 GEM
@@ -164,8 +164,8 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  monolith!
   rails (>= 7.0.0)
+  rubymonolith!
   sprockets-rails
   sqlite3
 
