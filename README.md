@@ -1,6 +1,6 @@
 # Monolith
 
-A quick way to spin up a [Monlith](https://m.signalvnoise.com/the-monolith/) Rails application. [Rocketship](https://rocketship.io/) uses Monolith when building new SaaS applications.
+A quick way to spin up a [Monlithic Rails](https://rubymonolith.org) application. [Rocketship](https://rocketship.io/) uses Monolith when building new SaaS applications.
 
 ## Installation
 
