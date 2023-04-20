@@ -1,7 +1,7 @@
 if path = ENV["MONOLITH_GEM_PATH"]
-  gem "monolith", path: path
+  gem "rubymonolith", path: path
 else
-  gem "monolith"
+  gem "rubymonolith"
 end
 
 after_bundle do

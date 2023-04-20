@@ -17,5 +17,10 @@ module Monolith
     def version
       puts Monolith::VERSION
     end
+
+    desc "server", "Runs a monolith application"
+    def server
+      puts Monolith::VERSION
+    end
   end
 end
